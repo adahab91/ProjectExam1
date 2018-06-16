@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ada Håberg">
+    <meta name="description" content="Be a part of the Crew Dragons cabin crew team and work in outer space">
+    <meta name="keywords" content="participate, work, space, Nasa, spaceX, women astronaut, gender equality, equality,  Crew Dragon, Dragon, outer space, commercial spacecraft">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WOMEN ASTRONAUTS - Apply for a job in outer space </title>
+</head>
+<body>
+    
+    
+    
+<!---HEADER---> 
+    <div id="forms-bg">
+        <div id="header" class="container col-12">
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <a class="navbar-brand " href="index.html">
+                <img id="logo" src="images/womeninspace_white.png" alt="Logo of Women Astronauts, gender equality to space">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <hr>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="arrowStartPoint" class="nav-link" href="aboutdragon.html"><nobr>ABOUT CREW DRAGON</nobr></a>
+                    </li>
+                    <hr class="nav-hr">
+                    <li  class="nav-item">
+                        <a class="btn participate-btn hvr-icon-forward" href="forms.html" role="button">Apply now <i class="fa fa-angle-right hvr-icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+<!---/HEADER--->   
+    
+        
+        
+        
+        
+<!----FORMS---->
+    <div class="container col-12">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-5 col-xl-4 forms-background">
+                 <div class="row justify-content-center">
+                    <form id="myForm" action="thanks.php" method="post">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="contact-form-heading">Apply for job</h2> 
+                                <p id="apply-p">Apply for the job and get the chance to become a part of the team aboard SpaceX's first commercial spacecraft, Crew Dragon.</p>
+                            </div>
+                            <div class="forms col-sm-12">
+                                <label for="first_name">
+                                    <span>First Name</span>
+                                    <abbr title="required">*</abbr>
+                                    <span class="error" aria-live="polite"></span>
+                                </label><br>
+                                <input type="text" id="first_name" name="firstname">
+                                <span class="error" id="firstNameError">This field must be filled in correctly &#40;etc. Mona&#41;</span>
+                            </div>
+                            <div class="forms col-sm-12">
+                                <label for="last_name">
+                                    <span>Last Name</span>
+                                    <abbr title="required">*</abbr>
+                                </label><br>
+                                <input type="text" id="last_name" name="lastname">
+                                <span class="error" id="lastNameError">This field must be filled in correctly &#40;etc. Monsen&#41;</span>
+                            </div>     
+                            <div class="forms col-sm-12">
+                                <label for="telephone">
+                                    <span>Telephone</span>
+                                    <abbr title="required">*</abbr>
+                                </label><br>
+                                <input type="text" id="telephone" name="telephone">
+                                <span class="error" id="phoneError">Please enter a correct phone number &#40;etc. 815 493 00&#41;</span>
+                            </div>
+                            <div class="forms col-sm-12">
+                                <label for="email">
+                                    <span>E-mail </span>
+                                    <abbr title="required">*</abbr>
+                                </label><br>
+                                <input type="email" id="email" name="usermail">
+                                <span class="error" id="emailError">Please enter a correct email address</span>
+                            </div> 
+                            <div class="forms col-sm-6">
+                                <label for="profession">
+                                    <span>Profession</span>
+                                    <abbr title="required">*</abbr>
+                                </label><br>
+                                <select id="profession" name="profession" style="width: 200px">
+                                    <option value="">Chose profession</option>
+                                    <option value="student">Student</option>
+                                    <option value="coworker">Coworker</option>
+                                    <option value="manager">Manager</option>
+                                    <option value="self-employed">Self-employed</option>
+                                    <option value="unemployed">Unemployed</option>
+                                    <option value="shareholder">Shareholder</option>
+                                    <option value="freelancer">Freelancer</option>
+                                    <option value="retired">Retired</option>
+                                    <option value="freelancer">Freelancer</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="error" id="professionError">Please select a profession</span>
+                            </div>
+                            <div class="forms col-sm-6">
+                                <label for="age">
+                                    <span>Age &#40;between 18-50&#41;</span>
+                                    <abbr title="required">*</abbr>
+                                </label><br>
+                                <input type="number" id="age" name="age" style="width: 50px">
+                                <span class="error" id="ageError">Valid age between 18-50 years</span>
+                            </div>        
+                            <div class="forms forms col-sm-12">
+                                <label for="textfield">
+                                    <span>Why you? &#40;Max 500 words &#41;</span>
+                                    <abbr title="required">*</abbr>
+                                </label><br>
+                                <textarea id="textField" maxlength="500" placeholder="Please tell us why you are the perfect candidate for this job."></textarea>
+                                <span class="error" id="textFieldError">Please tell us more about yourself. You can only use letters, numbers and .,:()-_</span>
+                            </div>
+                            <div class="forms col-sm-12 text-center">
+                                <button id="submitForm" class="btn form-btn" type="submit" value="submit">
+                                    Submitt
+                                </button>
+                            </div>
+                        </div><!--/row-->
+                    </form>
+                </div><!--/row-->
+            </div><!--/col-6-->
+        </div><!--/row-->
+    </div><!--/container-->
+<!-----/FORMS------->
+        
+        
+        
+
+    
+<!---FOOTER--->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center">
+                        <a href="#"><i title="Facebook" class="social fa fa-facebook-official"></i><i title="YouTube" class="social fa fa-youtube-square"></i><i title="Instagram" class="social fa fa-instagram"></i><i title="Linked In" class="social fa fa-linkedin-square"></i></a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <p class="cooporation">In cooperation with <a class="footer-spaceX" href="http://www.spacex.com/" target="_blank"> SpaceX</a></p> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div><!--copyright-->
+    </footer><!--Footer-->  
+</div><!--bg-image-->
+<!--/FOOTER-->
+    
+    <script src="scripts/form.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
